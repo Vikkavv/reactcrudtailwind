@@ -27,4 +27,17 @@ export default class CochesService{
         else return false;
     }
 
+
+    async deleteCocheById(id){
+        let response = await axios.delete(Global.apiurl + "/coches/deleteCoche/" + id);
+        if(response.status === 200) return true;
+        else return false;
+    }
+
+    async insertCoche(coche){
+        let response = await axios.post(Global.apiurl + "/Coches/InsertCoche", coche);
+        if(response.status === 200) return true;
+        else return false;
+    }
+
 }

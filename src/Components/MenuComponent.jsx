@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const navigationLinks = [
     { label: 'Panel', to: '/', end: true },
+    { label: 'Crear Coche', to: '/CreateCoche', end: true },
 ]
 
 export default function MenuComponent() {
