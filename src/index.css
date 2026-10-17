@@ -10,3 +10,36 @@
       @apply py-1.5 px-3 text-center bg-blue-700 rounded-md text-white;
   } */
 }
+
+
+.grid{
+  diplay: grid;
+}
+
+.col4{
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gap1{
+  gap: 1rem;
+}
+
+.w-fitContent{
+  width: fit-content;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+} 
+
+.flex-direction-column{
+  flex-direction: column;
+} 
+
+.align-content-center{
+  align-content: center;
+}
